@@ -2,8 +2,7 @@
   "sales_insights": {
     "total_orders": 5000,
     "successful_orders": 4700,
-    "cancelled_orders": 300,
-    "average_processing_time": "3 hours"
+    "cancelled_orders": 300
   },
   "product_performance": {
     "popular_products": [
@@ -36,8 +35,7 @@
       { "rating": 3, "count": 300 },
       { "rating": 4, "count": 800 },
       { "rating": 5, "count": 2700 }
-    ],
-    "average_rating": 4.3
+    ]
   },
   "customer_demographics": {
     "age_groups": {
