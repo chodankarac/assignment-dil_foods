@@ -1,0 +1,55 @@
+{
+  "sales_insights": {
+    "total_orders": 5000,
+    "successful_orders": 4700,
+    "cancelled_orders": 300,
+    "average_processing_time": "3 hours"
+  },
+  "product_performance": {
+    "popular_products": [
+      { "product": "T-shirt", "orders": 1200, "revenue": 24000 },
+      { "product": "Jeans", "orders": 900, "revenue": 18000 },
+      { "product": "Shoes", "orders": 800, "revenue": 20000 }
+    ],
+    "low_performing_products": [
+      { "product": "Socks", "orders": 50, "revenue": 1000 },
+      { "product": "Hats", "orders": 70, "revenue": 1400 },
+      { "product": "Scarves", "orders": 30, "revenue": 600 }
+    ]
+  },
+  "order_shipping": {
+    "delivery_status": {
+      "delivered": 4200,
+      "in_transit": 400,
+      "pending": 100
+    },
+    "popular_shipping_methods": [
+      { "method": "Standard", "percentage": 60 },
+      { "method": "Express", "percentage": 30 },
+      { "method": "Next Day", "percentage": 10 }
+    ]
+  },
+  "customer_feedback": {
+    "ratings": [
+      { "rating": 1, "count": 50 },
+      { "rating": 2, "count": 100 },
+      { "rating": 3, "count": 300 },
+      { "rating": 4, "count": 800 },
+      { "rating": 5, "count": 2700 }
+    ],
+    "average_rating": 4.3
+  },
+  "customer_demographics": {
+    "age_groups": {
+      "18-25": 1000,
+      "26-35": 2000,
+      "36-45": 1200,
+      "46-55": 800
+    },
+    "gender": {
+      "male": 3000,
+      "female": 3500,
+      "other": 200
+    }
+  }
+}
