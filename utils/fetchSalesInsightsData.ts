@@ -1,4 +1,5 @@
 import axios from "axios";
+
 export type SalesData = {
   orderSaleData: string;
   orderQuantity: number;

@@ -4,18 +4,38 @@
     "successful_orders": 4700,
     "cancelled_orders": 300
   },
-  "product_performance": {
-    "popular_products": [
-      { "product": "T-shirt", "orders": 1200, "revenue": 24000 },
-      { "product": "Jeans", "orders": 900, "revenue": 18000 },
-      { "product": "Shoes", "orders": 800, "revenue": 20000 }
-    ],
-    "low_performing_products": [
-      { "product": "Socks", "orders": 50, "revenue": 1000 },
-      { "product": "Hats", "orders": 70, "revenue": 1400 },
-      { "product": "Scarves", "orders": 30, "revenue": 600 }
-    ]
-  },
+  "product_performance": [
+    {
+      "product": "T-shirt",
+      "orders": 1800,
+      "revenue": 12000
+    },
+    {
+      "product": "Jeans",
+      "orders": 1200,
+      "revenue": 14000
+    },
+    {
+      "product": "Shoes",
+      "orders": 2000,
+      "revenue": 20000
+    },
+    {
+      "product": "Socks",
+      "orders": 5000,
+      "revenue": 10000
+    },
+    {
+      "product": "Hats",
+      "orders": 7000,
+      "revenue": 14000
+    },
+    {
+      "product": "Scarves",
+      "orders": 3000,
+      "revenue": 6000
+    }
+  ],
   "order_shipping": {
     "delivery_status": {
       "delivered": 4200,
