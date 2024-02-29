@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <h1 style={{ display: "flex", justifyContent: "center", alignItems: "center", fontSize: "20px" }}>
-        Product Data
+        E-Commerce Data
       </h1>
       <HomePage />
     </>
