@@ -7,8 +7,9 @@ const SalesInsightsChart = () => {
   const data = useAppSelector((state: RootState) => state.ecomData.orderSaleData);
   return (
     <div>
+      <h1 style={{ display: "flex", justifyContent: "center", padding: "30px" }}>Sales Insights</h1>
       <BarChart
-        width={550}
+        width={500}
         height={300}
         data={data}
         barGap={5}

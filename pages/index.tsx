@@ -4,5 +4,12 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return <HomePage />;
+  return (
+    <>
+      <h1 style={{ display: "flex", justifyContent: "center", alignItems: "center", fontSize: "20px" }}>
+        Product Data
+      </h1>
+      <HomePage />
+    </>
+  );
 }

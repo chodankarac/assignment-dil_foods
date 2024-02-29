@@ -1,8 +1,8 @@
 {
   "sales_insights": {
-    "total_orders": 5000,
-    "successful_orders": 4700,
-    "cancelled_orders": 300
+    "total": 5000,
+    "successful": 4700,
+    "cancelled": 300
   },
   "product_performance": [
     {
@@ -24,24 +24,12 @@
       "product": "Socks",
       "orders": 5000,
       "revenue": 10000
-    },
-    {
-      "product": "Hats",
-      "orders": 7000,
-      "revenue": 14000
-    },
-    {
-      "product": "Scarves",
-      "orders": 3000,
-      "revenue": 6000
     }
   ],
   "product_stock": [
     { "product": "T-shirt", "stock": 1800 },
     { "product": "Jeans", "stock": 1200 },
     { "product": "Shoes", "stock": 2000 },
-    { "product": "Socks", "stock": 5000 },
-    { "product": "Hats", "stock": 7000 },
-    { "product": "Scarves", "stock": 3000 }
+    { "product": "Socks", "stock": 5000 }
   ]
 }

@@ -9,23 +9,27 @@ const ProductStock = () => {
   const productNames = data.map((entry) => entry.product);
 
   return (
-    <PieChart width={400} height={400}>
-      <Pie
-        data={data}
-        cx={200}
-        cy={200}
-        label={({ product }) => product}
-        outerRadius={80}
-        fill="#8884d8"
-        dataKey="stock"
-      >
-        {data.map((entry, index) => (
-          <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-        ))}
-      </Pie>
-      <Tooltip formatter={(value, name, props) => [`${value} units`, props.payload.product]} />
-      <Legend formatter={(value) => <span style={{ color: "#333" }}>{productNames[value]}</span>} />
-    </PieChart>
+    <div>
+      <h1 style={{ display: "flex", justifyContent: "center", paddingTop: "30px" }}>Product Stock Chart</h1>
+      <PieChart width={400} height={300}>
+        <Pie
+          data={data}
+          cx={200}
+          cy={150}
+          labelLine={false}
+          label={({ product }) => product}
+          outerRadius={80}
+          fill="#8884d8"
+          dataKey="stock"
+        >
+          {data.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+          ))}
+        </Pie>
+        <Tooltip formatter={(value, name, props) => [`${value} units`, props.payload.product]} />
+        <Legend formatter={(value) => <span style={{ color: "#333" }}>{productNames[value]}</span>} />
+      </PieChart>
+    </div>
   );
 };
 
