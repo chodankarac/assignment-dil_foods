@@ -36,38 +36,12 @@
       "revenue": 6000
     }
   ],
-  "order_shipping": {
-    "delivery_status": {
-      "delivered": 4200,
-      "in_transit": 400,
-      "pending": 100
-    },
-    "popular_shipping_methods": [
-      { "method": "Standard", "percentage": 60 },
-      { "method": "Express", "percentage": 30 },
-      { "method": "Next Day", "percentage": 10 }
-    ]
-  },
-  "customer_feedback": {
-    "ratings": [
-      { "rating": 1, "count": 50 },
-      { "rating": 2, "count": 100 },
-      { "rating": 3, "count": 300 },
-      { "rating": 4, "count": 800 },
-      { "rating": 5, "count": 2700 }
-    ]
-  },
-  "customer_demographics": {
-    "age_groups": {
-      "18-25": 1000,
-      "26-35": 2000,
-      "36-45": 1200,
-      "46-55": 800
-    },
-    "gender": {
-      "male": 3000,
-      "female": 3500,
-      "other": 200
-    }
-  }
+  "product_stock": [
+    { "product": "T-shirt", "stock": 1800 },
+    { "product": "Jeans", "stock": 1200 },
+    { "product": "Shoes", "stock": 2000 },
+    { "product": "Socks", "stock": 5000 },
+    { "product": "Hats", "stock": 7000 },
+    { "product": "Scarves", "stock": 3000 }
+  ]
 }
