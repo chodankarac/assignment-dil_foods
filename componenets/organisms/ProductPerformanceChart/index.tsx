@@ -7,7 +7,7 @@ const ProductPerformanceChart = () => {
   const data = useAppSelector((state: RootState) => state.ecomData.performanceData);
   return (
     <div>
-      <h1 style={{ display: "flex", justifyContent: "center", padding: "30px" }}>Product Performance Chart</h1>
+      <h2 style={{ display: "flex", justifyContent: "center", padding: "30px" }}>Product Performance Chart</h2>
       <LineChart width={500} height={300} data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
         <XAxis dataKey="product" />
         <YAxis />

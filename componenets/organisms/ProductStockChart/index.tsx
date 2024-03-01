@@ -10,7 +10,7 @@ const ProductStock = () => {
 
   return (
     <div>
-      <h1 style={{ display: "flex", justifyContent: "center", paddingTop: "30px" }}>Product Stock Chart</h1>
+      <h2 style={{ display: "flex", justifyContent: "center", paddingTop: "30px" }}>Product Stock Chart</h2>
       <PieChart width={400} height={300}>
         <Pie
           data={data}

@@ -25,7 +25,7 @@ const HomePage = () => {
     fetchData();
   }, [fetchData]);
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
+    <div className="flex justify-center">
       <SalesInsightsChart />
       <ProductPerformanceChart />
       <ProductStock />
